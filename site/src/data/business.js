@@ -5,10 +5,10 @@
 export const business = {
   name: "Garage71",
   tagline: "Performance. Customs. Repairs.",
-  phoneDisplay: "082 404 7200",
+  phoneDisplay: "+27 82 404 7200",
   phoneHref: "tel:+27824047200",
   whatsappNumber: "27824047200",
-  officePhoneDisplay: "079 081 2448",
+  officePhoneDisplay: "+27 79 081 2448",
   officePhoneHref: "tel:+27790812448",
   address: {
     line1: "33 South Circular Road",

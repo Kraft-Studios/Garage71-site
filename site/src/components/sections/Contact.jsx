@@ -1,5 +1,6 @@
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
+import ContactForm from "../ui/ContactForm";
 import { business, whatsappLink } from "../../data/business";
 import { MapPinIcon, PhoneIcon, WhatsAppIcon, ClockIcon } from "../ui/Icons";
 
@@ -102,6 +103,17 @@ export default function Contact() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
+          </Reveal>
+        </div>
+
+        <div className="mt-20 pt-16 border-t border-line">
+          <Reveal>
+            <h3 className="font-display text-xl md:text-2xl uppercase tracking-wide text-offwhite mb-8">
+              Send us a message
+            </h3>
+          </Reveal>
+          <Reveal delay={100}>
+            <ContactForm />
           </Reveal>
         </div>
       </div>
