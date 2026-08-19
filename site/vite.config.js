@@ -4,6 +4,7 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Garage71-site/',
   plugins: [
     react(),
     // Compresses photos at build time only — keeps the real Garage71
